@@ -1,0 +1,23 @@
+{
+    "name": "logli/notes",
+    "authors": [
+        {
+            "name": "loglinn05",
+            "email": "loglinn05@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.14"
+    }
+}

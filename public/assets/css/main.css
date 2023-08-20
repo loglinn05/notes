@@ -1,0 +1,13 @@
+.nav-link.active {
+    font-weight: bold;
+}
+
+.profile-edition-link {
+    text-decoration-style: dotted !important;
+}
+
+@media screen and (max-width: 375px) {
+    .form-text {
+        font-size: .8em;
+    }
+}
